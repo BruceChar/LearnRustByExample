@@ -1,0 +1,304 @@
+{
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'RustByExamples'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=RustByExamples",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "RustByExamples",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'RustByExamples'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=RustByExamples",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "RustByExamples",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug example 'display'",
+      "cargo": {
+        "args": [
+          "build",
+          "--example=display",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "display",
+          "kind": "example"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in example 'display'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--example=display",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "display",
+          "kind": "example"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug example 'file'",
+      "cargo": {
+        "args": [
+          "build",
+          "--example=file",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "file",
+          "kind": "example"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in example 'file'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--example=file",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "file",
+          "kind": "example"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug example 'format'",
+      "cargo": {
+        "args": [
+          "build",
+          "--example=format",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "format",
+          "kind": "example"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in example 'format'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--example=format",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "format",
+          "kind": "example"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug example 'hello'",
+      "cargo": {
+        "args": [
+          "build",
+          "--example=hello",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "hello",
+          "kind": "example"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in example 'hello'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--example=hello",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "hello",
+          "kind": "example"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug example 'map'",
+      "cargo": {
+        "args": [
+          "build",
+          "--example=map",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "map",
+          "kind": "example"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in example 'map'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--example=map",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "map",
+          "kind": "example"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug example 'match'",
+      "cargo": {
+        "args": [
+          "build",
+          "--example=match",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "match",
+          "kind": "example"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in example 'match'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--example=match",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "match",
+          "kind": "example"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug example 'struct'",
+      "cargo": {
+        "args": [
+          "build",
+          "--example=struct",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "struct",
+          "kind": "example"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in example 'struct'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--example=struct",
+          "--package=RustByExamples"
+        ],
+        "filter": {
+          "name": "struct",
+          "kind": "example"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
